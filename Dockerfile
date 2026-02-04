@@ -1,2 +1,2 @@
 FROM alexta69/metube:latest
-RUN apk update && apk --no-cache upgrade
+RUN apt-get -U -y upgrade && apt-get clean
